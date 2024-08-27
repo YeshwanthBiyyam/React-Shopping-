@@ -1,0 +1,11 @@
+.container{
+    border: 2px solid black;
+    background-color: lightgray;
+    color: navy;
+}
+
+.list{
+    border: 1px dashed gray;
+    background-color: rgb(9, 2, 3);
+    color: bisque;
+}

@@ -1,0 +1,65 @@
+/* Apply to all elements */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.headerSection{
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  background-color: beige;
+  padding-top: 20px;
+}
+
+.center ul li{
+  list-style: none;
+  display: inline-flex;
+  margin: 0px 5px;
+}
+
+.title{
+  font-size: 1rem;
+}
+.left{
+  flex: 4;
+  /*border: 1px solid black;*/
+}
+.center{
+  flex: 8;
+  padding-left: 20px;
+ /* border: 0.8px Solid black;*/
+}
+.search{
+  flex: 2;
+  /*border: 1px solid black;*/
+}
+.search input{
+  padding: 10px;
+  width: 20rem;
+  margin-right: 100px;
+}
+
+.right{
+  flex: 4;
+  /*border: 1px solid black;*/
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 10px;
+}
+.bannerBox{
+margin: 10px 0px ;
+}
+.bannerBox img{
+  width: 100%;
+}
+.menImage{
+  display: flex;
+  gap: 10px;
+}
+.menImage img{
+  width: 280px;
+  height: 280px;
+}
